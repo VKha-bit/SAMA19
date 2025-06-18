@@ -78,7 +78,7 @@ header {
   text-decoration: none;
   color: rgb(7, 1, 32);
   text-transform: capitalize;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   font-family: Roboto, sans-serif;
   transition: 0.5s;
@@ -196,9 +196,9 @@ a span {
   content: "\f00c";
 } */
 .content__acticle i {
-  width: 39px;
-  height: 30px;
-  line-height: 23px;
+  width: 40px;
+  height: 39px;
+  line-height: 36px;
   text-align: center;
   font-size: 24px;
   color: #fff;
@@ -903,9 +903,7 @@ button:hover {
 /* .blog__items .blog__body {
   padding-bottom: 40px;
 } */
-.blog__items .blog__footer p,
-span,
-i {
+.blog__items .blog__footer p {
   font-size: 15px;
   padding-top: 10px;
   text-transform: uppercase;
@@ -1309,4 +1307,17 @@ span {
 
 .footer__end .end__item a:hover {
   background: #f55f8d;
+}
+.scroll-to-top {
+  position: fixed;
+  padding: 30px 28px 20px;
+  right: 30px;
+  bottom: 30px;
+  font-size: 22px;
+  background-color: #f55f8ca8;
+  border-radius: 10px;
+  color: white !important;
+}
+.scroll-to-top:hover {
+  background-color: #f3477b;
 }
